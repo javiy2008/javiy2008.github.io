@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #313D52;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 995px;
+	margin: -52px 350px auto;
+	background: black;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+  background-color: black;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/* centro de la pagina principal*/
+
+.centro{
+  list-style: none;
+  background: black;
+  width: 995px;
+  margin: 30px auto;
+	color: white;
+
+}
+ h3{
+
+  color: white;
+	font-family: 'Open sans';
+	text-decoration: none;
+  margin: 0px 400px auto;
+}
+footer p{
+  font-family:'Open sans';
+  color: white;
+  text-decoration: none;
+  margin: 0px 400px auto;
+  font-size: 15px;
+  background-color: black;
+}
+.registro{
+  background-color: black;
+  width: 900px;
+  margin:100px 250px auto;
+  color: white;
+}
+form{
+  margin:50px 100px auto;
+}
+.registro h1{
+  margin:0px 350px auto;
+}
+.comentarios{
+  background-color: black;
+  width: 900px;
+  margin:-500px 150px auto;
+  color: white;
+}
