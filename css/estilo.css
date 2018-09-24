@@ -4,6 +4,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	list-style: none;
 }
 
 body{
@@ -69,19 +70,32 @@ header{
 /* centro de la pagina principal*/
 
 .centro{
-  list-style: none;
-  background: black;
-  width: 995px;
-  margin: 30px auto;
+	list-style: none;
+	background: black;
+	width: 995px;
+	margin: 40px  auto;
 	color: white;
-
+	padding: 40px;
+	}
+.fila1 {
+	margin: -715px 500px;
 }
+.fila2{
+	margin: -470px 500px;
+}
+.fila3{
+	margin: -260px 500px;
+	padding-top: 10px
+}
+
  h3{
 
   color: white;
 	font-family: 'Open sans';
 	text-decoration: none;
   margin: 0px 400px auto;
+	padding: 20px;
+	display: inline;
 }
 footer p{
   font-family:'Open sans';
@@ -90,6 +104,7 @@ footer p{
   margin: 0px 400px auto;
   font-size: 15px;
   background-color: black;
+	text-align: center;
 }
 .registro{
   background-color: black;
@@ -99,6 +114,7 @@ footer p{
 }
 form{
   margin:50px 100px auto;
+
 }
 .registro h1{
   margin:0px 350px auto;
@@ -108,4 +124,23 @@ form{
   width: 900px;
   margin:-500px 150px auto;
   color: white;
+}
+.centro h2{
+text-align: center;
+}
+
+.centro li{
+	padding: 5px;
+}
+.centro img {
+	display: table-column-group;
+}
+
+
+
+@media (min-width: 320px) and (max-width:1024px) {
+	.navegacion{
+
+		}
+
 }
