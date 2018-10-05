@@ -1,34 +1,42 @@
 *{
 	margin: 0;
 	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+
 	list-style: none;
 }
 
 body{
 	background: #313D52;
+	width: 100%;
 }
 
 header{
 	width: 100%;
 }
+.banner {
+	position: absolute;
+	margin: 0px 0px;
+	padding: 0px;
+	width: 81.5%;
+	height: 188px;
 
+}
 .navegacion{
 	width: 995px;
 	margin: -52px 350px auto;
 	background: black;
+	width: 81.5%;
 }
 
 .navegacion ul{
 	list-style: none;
+	width: 100%
 }
-
-.menu > li{
+.menu li{
 	position: relative;
 	display: inline-block;
   background-color: black;
+	padding: 0px 20px;
 }
 
 .menu > li > a{
@@ -45,10 +53,9 @@ header{
 }
 
 /* Submenu*/
-
 .submenu{
 	position: absolute;
-	background: #333333;
+	background: black;
 	width: 120%;
 	visibility: hidden;
 	opacity: 0;
@@ -77,16 +84,23 @@ header{
 	color: white;
 	padding: 40px;
 	}
-.fila1 {
-	margin: -715px 500px;
-}
-.fila2{
-	margin: -470px 500px;
-}
-.fila3{
-	margin: -260px 500px;
-	padding-top: 10px
-}
+	.centro ul li{
+		width: 300px;
+		display: inline-block;
+	}
+
+	.centro img{
+		width: 100%;
+    height: 200px;
+	}
+	.centrocate{
+		list-style: none;
+		background: black;
+		width: 995px;
+		margin: 40px  auto;
+		color: white;
+		padding: 40px;
+		}
 
  h3{
 
@@ -106,25 +120,16 @@ footer p{
   background-color: black;
 	text-align: center;
 }
-.registro{
-  background-color: black;
-  width: 900px;
-  margin:100px 250px auto;
-  color: white;
+footer{
+	padding: 20px;
 }
+
+
 form{
   margin:50px 100px auto;
 
 }
-.registro h1{
-  margin:0px 350px auto;
-}
-.comentarios{
-  background-color: black;
-  width: 900px;
-  margin:-500px 150px auto;
-  color: white;
-}
+
 .centro h2{
 text-align: center;
 }
@@ -132,15 +137,124 @@ text-align: center;
 .centro li{
 	padding: 5px;
 }
-.centro img {
-	display: table-column-group;
+@media screen and (max-width: 480px) {
+	body{
+		margin: 0px;
+	}
+
+	.portada,.banner{
+  display: none;
 }
+nav ul{
+	position: fixed;
+    list-style: none;
+		width: 100%;
+	}
+	.navegacion ul{
+		margin: 54px -350px;
+		width: 100%;
+		position: absolute;
+		background-color:#01c0ee;
+	}
+	.menu li{
+		background-color: #01c0ee;
+	}
+	.menu li a{
+		font-size: 14px;
+		display: inline-block;
+	}
+	.centro{
+		margin: 0 -42px;
+		width: 100%;
+	}
+	.centro ul{
+		padding: 50px;
+		margin: 48px -52px;
+		font-size: 0;
+		list-style-type: none;
+	}
+	.centro li{
+		display: inline-block;
+		box-sizing: border-box;
+	}
+
+	.centro li h3{
+		font-size: 28px;
+		margin: 0px 67px auto;
+		position: relative;
+	}
 
 
+	.centro img{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	 	}
+.centro ul li{
+	width: 50%;
+}
+footer{
+	margin: -58px -371px;
+}
+}
+@media screen and (min-width:481px) and (max-width: 1024px) {
+	body{
+		margin: 0px;
+	}
 
-@media (min-width: 320px) and (max-width:1024px) {
-	.navegacion{
+	.portada,.banner{
+  display: none;
+}
+nav ul{
+	position: fixed;
+    list-style: none;
+		width: 100%;
+		padding: 20%;
+	}
+	.navegacion ul{
+		margin: 54px -350px;
+		width: 148%;
+		position: absolute;
+		background-color:#01c0ee;
+	}
+	.menu li{
+		background-color: #01c0ee;
+	}
+	.menu li a{
+		font-size: 14px;
+		display: inline-block;
+	}
+	.centro{
+		margin: 0 -42px;
+		width: 143%;
+	}
+	.centro ul{
+		padding: 50px;
+		margin: 48px -52px;
+		font-size: 0;
+		list-style-type: none;
+	}
+	.centro li{
+		display: inline-block;
+		box-sizing: border-box;
+	}
 
-		}
+	.centro li h3{
+		font-size: 28px;
+		margin: 0% 80% auto;
+		position: relative;
+	}
 
+
+	.centro img{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	 	}
+.centro ul li{
+	width: 50%;
+}
+footer{
+	margin: -58px -371px;
+}
 }
