@@ -171,6 +171,33 @@ nav ul{
 		margin: 6px 8px;
 
 	}
+	.centrocate ul{
+		margin: 140px 0px;
+		width: 100%;
+	}
+	.centrocate {
+	margin: 77px -118px;
+	width: 100%;
+	 padding: 119px;
+}
+
+	.centrocate ul li{
+		margin: 0px 0px;
+		width: 100%;
+	}
+	.centrocate ul li img{
+		margin: 20px 0px;
+		width: 80%;
+	}
+.centrocate  dl dt{
+	margin: 68px 54px;
+	width: 100%;
+	}
+}
+.centrocate dl dd{
+	margin: -48px 5px;
+  width: 97%;
+}
 	.centro{
 		margin: 0 -42px;
 		width: 100%;
@@ -232,6 +259,34 @@ nav ul{
 		font-size: 14px;
 		display: inline-block;
 	}
+	.centrocate ul{
+		margin: 140px 0px;
+		width: 100%;
+	}
+	.centrocate {
+	margin: 77px -118px;
+	width: 100%;
+	 padding: 119px;
+}
+
+	.centrocate ul li{
+		margin: 0px 0px;
+		width: 100%;
+	}
+	.centrocate ul li img{
+		margin: 20px 0px;
+		width: 80%;
+	}
+.centrocate  dl dt{
+	margin: 68px 54px;
+	width: 100%;
+	}
+}
+.centrocate dl dd{
+	margin: -48px -57px;
+	width: 97%;
+	padding: 60px;
+}
 	.centro{
 		margin: 0 -42px;
 		width: 143%;
