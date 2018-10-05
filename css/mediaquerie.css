@@ -15,8 +15,8 @@ nav ul{
 		width: 100%;
 	}
 	.navegacion ul{
-		margin: 54px -350px;
-		width: 50%;
+		margin: 54px -228px;
+		width: 30%;
 		position: fixed;
 		background-color:#01c0ee;
 	}
@@ -33,7 +33,6 @@ nav ul{
 	}
 	.submenu li{
 		margin: 6px 8px;
-		width: 30%;
 
 	}
 	.centrocate ul{
