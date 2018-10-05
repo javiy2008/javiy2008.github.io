@@ -1,0 +1,93 @@
+@media screen and  (max-width: 1024px) {
+	body{
+		margin: 0px;
+	}
+
+	.portada,.banner{
+  display: none;
+}
+nav ul{
+	position: fixed;
+    list-style: none;
+		width: 100%;
+		padding: 20%;
+	}
+	.navegacion ul{
+		margin: 54px -350px;
+		width: 148%;
+		position: absolute;
+		background-color:#01c0ee;
+	}
+  .navegacion{
+    margin: -222px 350px;
+  }
+	.menu li{
+		background-color: #01c0ee;
+	}
+	.menu li a{
+		font-size: 14px;
+		display: inline-block;
+	}
+	.centrocate ul{
+		margin: 140px 0px;
+		width: 100%;
+	}
+	.centrocate {
+	margin: 77px -118px;
+	width: 100%;
+	 padding: 119px;
+}
+
+	.centrocate ul li{
+		margin: 0px 0px;
+		width: 100%;
+	}
+	.centrocate ul li img{
+		margin: 20px 0px;
+		width: 80%;
+	}
+.centrocate  dl dt{
+	margin: 68px 54px;
+	width: 100%;
+	}
+}
+.centrocate dl dd{
+	margin: -48px -57px;
+	width: 97%;
+	padding: 60px;
+}
+	.centro{
+		margin: 0 -42px;
+		width: 143%;
+	}
+	.centro ul{
+		padding: 50px;
+		margin: 329px -52px;
+		font-size: 0;
+		list-style-type: none;
+	}
+	.centro li{
+		display: inline-block;
+		box-sizing: border-box;
+	}
+
+	.centro li h3{
+		font-size: 28px;
+		margin: 0% 80% auto;
+		position: relative;
+	}
+
+
+	.centro img{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	 	}
+.centro ul li{
+	width: 35%;
+  margin: 23px 0px;
+}
+footer{
+	margin: -58px -371px;
+}
+}
