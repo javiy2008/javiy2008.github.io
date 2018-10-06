@@ -100,7 +100,15 @@ nav ul{
 	width: 50%;
 }
 .comentarios{
-	background-color: black;
+list-style: none;
+background: black;
+margin: 40px  auto;
+color: white;
+padding: 40px 0px;
+width: 100%;
+}
+.comentarios h1{
+	margin: 46px 48px;
 }
 .comentarios textarea{
 	width: 100%;

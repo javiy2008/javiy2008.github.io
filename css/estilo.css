@@ -93,6 +93,15 @@ header{
 		width: 100%;
     height: 200px;
 	}
+	.comentarios{
+		list-style: none;
+		background: black;
+		width: 995px;
+		margin: 40px  auto;
+		color: white;
+		padding: 40px;
+
+}
 	.centrocate{
 		list-style: none;
 		background: black;
