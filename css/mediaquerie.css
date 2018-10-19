@@ -1,7 +1,7 @@
 
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
 	body{
 		margin: 0px;
 	}
@@ -15,16 +15,13 @@ nav ul{
 		width: 100%;
 	}
 	.navegacion ul{
-		margin: 54px -349px;
-		width: 100%;
+		margin: 54px -228px;
+		width: 30%;
 		position: fixed;
 		background-color:#01c0ee;
 	}
 	.menu li{
-		width: 100%;
-  background-color: #01c0ee;
-   margin: 2px 31px;
-   display: inline;
+		background-color: #01c0ee;
 	}
 	.menu li a{
 		font-size: 14px;
@@ -32,8 +29,7 @@ nav ul{
 		padding: 0;
 	}
 	.submenu {
-		position:absolute;
-		width: 0px 0px;
+		position: absolute;
 	}
 	.submenu li{
 		margin: 6px 8px;
@@ -71,8 +67,8 @@ nav ul{
 		width: 100%;
 	}
 	.centro ul{
-		padding: 0px;
-	  margin: 132px 0px;
+		padding: 50px;
+		margin: 48px -52px;
 		font-size: 0;
 		list-style-type: none;
 	}
@@ -81,16 +77,13 @@ nav ul{
 		box-sizing: border-box;
 	}
 
-	.centro li h2{
+	.centro li h3{
 		font-size: 28px;
-		margin: 0px 80px;
-    width: 100%;
+		margin: 0px 67px auto;
 		position: inherit;
 	}
 
-.centrocate label{
-	padding: 0px 50px;
-}
+
 	.centro img{
 		width: 100%;
 		padding: 0;
@@ -99,29 +92,7 @@ nav ul{
 .centro ul li{
 	width: 50%;
 }
-.comentarios{
-list-style: none;
-background: black;
-margin: 40px  auto;
-color: white;
-padding: 40px 0px;
-width: 100%;
-}
-.comentarios h1{
-	margin: 46px 48px;
-}
-.comentarios textarea{
-	width: 100%;
-	height: 300px;
-}
 footer{
-	width: 100%;
-	margin-left: -10px;
-	padding: 0;
-}
-footer p{
-	width: 100%;
-	font-size: 14px;
-	margin:0px 0px;
+	margin: -58px -371px;
 }
 }

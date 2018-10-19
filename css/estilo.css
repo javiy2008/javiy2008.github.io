@@ -13,19 +13,20 @@ body{
 header{
 	width: 100%;
 }
+
 .banner {
-	position: absolute;
+	position: relative;
 	margin: 0px 0px;
 	padding: 0px;
-	width: 81.5%;
-	height: 188px;
+	width: 100%;
+
 
 }
 .navegacion{
-	width: 995px;
-	margin: -52px 350px auto;
+	position: relative;
+	width: 100% ;
+	margin: -10px 0px auto;
 	background: black;
-	width: 81.5%;
 }
 
 .navegacion ul{
@@ -36,7 +37,8 @@ header{
 	position: relative;
 	display: inline-block;
   background-color: black;
-	padding: 0px 20px;
+	padding: 0px 80px;
+	margin-left: 80px;
 }
 
 .menu > li > a{
@@ -60,6 +62,7 @@ header{
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity 1.5s;
+
 }
 
 .submenu li a{
@@ -68,7 +71,8 @@ header{
 	color: #fff;
 	font-family: 'Open sans';
 	text-decoration: none;
-}
+	margin: 0px -100px;
+	}
 
 .menu li:hover .submenu{
 	visibility: visible;
@@ -87,21 +91,12 @@ header{
 	.centro ul li{
 		width: 300px;
 		display: inline-block;
-	}
+		}
 
 	.centro img{
 		width: 100%;
     height: 200px;
 	}
-	.comentarios{
-		list-style: none;
-		background: black;
-		width: 995px;
-		margin: 40px  auto;
-		color: white;
-		padding: 40px;
-
-}
 	.centrocate{
 		list-style: none;
 		background: black;
@@ -110,7 +105,16 @@ header{
 		color: white;
 		padding: 40px;
 		}
-
+		.centrocate img{
+			width: 250px;
+		}
+		.centrocate a{
+			text-decoration: none;
+			color: white;
+		}
+		.imgprincipal img {
+			width: 800px;
+		}
  h3{
 
   color: white;
@@ -135,8 +139,10 @@ footer{
 
 
 form{
-  margin:50px 100px auto;
-
+  margin:50px 0px auto;
+}
+input{
+	margin: 10px;
 }
 
 .centro h2{
