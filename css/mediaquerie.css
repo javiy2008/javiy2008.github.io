@@ -4,24 +4,30 @@
 @media screen and (max-width: 480px) {
 	body{
 		margin: 0px;
+		width: 100%;
 	}
 
 	.portada,.banner{
-  display: none;
+	display: none;
 }
 nav ul{
 	position: fixed;
-    list-style: none;
+		list-style: none;
 		width: 100%;
 	}
 	.navegacion ul{
-		margin: 54px -228px;
-		width: 30%;
+		width: 100%;
 		position: fixed;
-		background-color:#01c0ee;
+		background-color:#CE7D35;
 	}
-	.menu li{
-		background-color: #01c0ee;
+	.menu li {
+    position: initial;
+    display: inline-block;
+    background-color: black;
+    padding: 0px 80px;
+    margin-left: 0px;
+		background-color:#CE7D35;
+		width: 5%;
 	}
 	.menu li a{
 		font-size: 14px;
@@ -30,11 +36,13 @@ nav ul{
 	}
 	.submenu {
 		position: absolute;
+		background-color: white;
+		color: black;
 	}
 	.submenu li{
-		margin: 6px 8px;
+ margin: 14px 27px;
+}
 
-	}
 	.centrocate ul{
 		margin: 140px 0px;
 		width: 100%;
@@ -60,7 +68,7 @@ nav ul{
 }
 .centrocate dl dd{
 	margin: -48px 5px;
-  width: 97%;
+	width: 97%;
 }
 	.centro{
 		margin: 0 -42px;
@@ -88,11 +96,24 @@ nav ul{
 		width: 100%;
 		padding: 0;
 		margin: 0;
-	 	}
+		}
 .centro ul li{
 	width: 50%;
+}
+textarea{
+	width: 90%;
 }
 footer{
 	margin: -58px -371px;
 }
+.centro ul li a img{
+	width: 90%;
 }
+footer p{
+	margin-left: 339px;
+}
+.navegacion {
+    position: relative;
+    width: 100%;
+    margin: 0px 0px auto;
+    background: black;

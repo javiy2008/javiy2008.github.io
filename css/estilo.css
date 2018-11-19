@@ -87,6 +87,10 @@ header{
 	width: 50%;
 	color: white;
 	padding: 40px;
+
+	}
+	.imagenesindex img{
+		height: 200px;
 	}
 	.centro ul li{
 		width: 300px;
@@ -95,7 +99,6 @@ header{
 
 	.centro img{
 		width: 100%;
-    height: 200px;
 	}
 	.centrocate{
 		list-style: none;
@@ -128,13 +131,15 @@ footer p{
   font-family:'Open sans';
   color: white;
   text-decoration: none;
-  margin: 0px 400px auto;
   font-size: 15px;
   background-color: black;
 	text-align: center;
+	width: 100%;
+
 }
 footer{
 	padding: 20px;
+	width: 97%;
 }
 
 
@@ -151,4 +156,35 @@ text-align: center;
 
 .centro li{
 	padding: 5px;
+}
+.comprar p{
+	font-family: 'Open sans';
+	color: #062AF4;
+	width: 200px;
+	font-size:40px;
+	background-color: #C4C6E7;
+	text-align: center;
+	margin: 30px;
+	border-radius: 10px;
+}
+.comprar a:hover{
+	color:black;
+}
+
+
+
+.formpago{
+  padding-left: 15px;
+	background-color: #D2D4DF;
+  width: 58%;
+	color: black;
+	text-align:left;
+margin: 0% 20%;
+}
+.imgpago {
+	width: 86%;
+  margin: 1% 8%;
+}
+.textpago{
+	text-align: center;
 }

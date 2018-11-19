@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/infocounter.js"></script>
+  <script src="js/pago.js"></script>
+  <link rel="stylesheet"  href="css/estilo.css">
+  <link rel="stylesheet" media="(max-width: 480px)"  href="css/mediaquerie.css">
+  <link rel="stylesheet" media= "(max-width: 1024px)"  href="css/mediaquerie2.css">
+  <title>Juegos Jap</title>
+</head>
+<body>
+  <img class="banner" src="imagenes/banner.jpg">
+  <nav class="navegacion">
+    <ul class="menu">
+      <li>
+        <a href="index.html">
+          <span>INICIO</span>
+        </a>
+      </li>
+      <li class="icon-home">
+        <a href=""><span>CATEGORIAS</span></a>
+
+          <ul class="submenu">
+            <li>
+              <a href="categoriaaccion.html">ACCIÓN</a>
+            </li>
+            <li>
+              <a href="categoriaaventura.html">AVENTURA</a>
+            </li>
+            <li>
+              <a href="categoriaconduccion.html">CONDUCCIÓN</a>
+            </li>
+            <li>
+              <a href="categoriadeportes.html">DEPORTES</a>
+            </li>
+            <li>
+              <a href="categoriadisparos.html">DISPAROS</a>
+            </li>
+            <li>
+              <a href="categoriamoba.html">MOBA</a>
+            </li>
+            <li>
+              <a href="categoriaestrategia.html">ESTRATEGIA</a>
+            </li>
+          </ul>
+     </li>
+      <li>
+        <a href="comentarios.html">
+          <span>CONTACTANOS</span></a>
+        </li>
+        <li>
+          <a href="registro.html"><span>REGÍSTRATE</span></a>
+        </li>
+      </ul>
+    </nav>
+<div class="centro">
+  <div class="imgpago">
+  <img src="imagenes/counterstrikep.jpg">
+</div>
+<div class="textpago">
+  <h1>Counter strike</h1>
+  <p>precio us$:20</p>
+</div>
+  <div class="formpago">
+  <form action="exito.html" method="post" >
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre"  placeholder="Escriba aquí su nombre..." maxlength="30" required>
+    </div>
+    <div>
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" placeholder="Escriba aquí su apellido..." maxlength="30" required>
+    </div>
+    <div>
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="18" max="110" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" id="email" name="email"required>
+    </div>
+    <p>Tipo de pago:</p>
+    <input type="radio" name="pago" id="visa" checked >
+    <label>Tarjeta visa</label>
+    <input type="radio" name="pago" id="oca">
+    <label>Tarjeta oca</label>
+    <input type="radio" name="pago" id="abitab">
+    <label>Locales abitab</label>
+    <div>
+      <input type="radio" name="juegos" id="fisico" checked>
+      <label>Juego fisico</label>
+      <input type="radio" name="juegos" id="digital">
+      <label>Juego digital</label>
+   </div>
+       <div id="seletipo">
+         <label for="direccion">Escriba la direccion a donde enviaremos el juego:</label>
+         <textarea cols="50" rows="10" minlength="30" id="direccion"  name="direccion"  required></textarea>
+     <p>Tipo de envio:</p>
+     <input type="radio" name="envio" id="comun"  checked>
+     <label>Comun</label>
+     <input type="radio" name="envio" id="especial">
+     <label> Especial</label>
+     <input type="radio" name="envio" id="premium">
+     <label>Premium</label>
+     </div>
+   <div>
+      <p>PRECIO UNITARIO = U$S 20</p>
+    </div>
+    <div>
+      <label for="cantidad">CANTIDAD:</label>
+      <input type="number" id="cantidad" name="cantidad"  min="1" value="0">
+    </div>
+    <div>
+     <p> PRECIO SEGUN CANTIDAD = <span id="preciocantidad"></span></p>
+    </div>
+    <div>
+     <p> IVA = <span id="iva"></span></p>
+    </div>
+    <div>
+     <p> ENVIO = <span id="envio"></span></p>
+   </div>
+   <div>
+     <p> TOTAL A PAGAR = <span id="preciofinal"></span></p>
+   </div>
+   <div>
+    <input type="submit" value="Comprar">
+<a href="counterstrike.html">
+    <input type="button" value="Cancelar">
+  </a>
+</form>
+</div>
+</div>
+   <footer>
+     <p>Copyright &copy; 1990-2018 Javier Biurrun, todos los derechos reservados.</p>
+   </footer>
+ </body>
+ </html>

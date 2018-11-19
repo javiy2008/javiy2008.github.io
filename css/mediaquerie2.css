@@ -1,6 +1,7 @@
-@media screen and  (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
 	body{
 		margin: 0px;
+		width: 100%;
 	}
 
 	.portada,.banner{
@@ -12,13 +13,14 @@ nav ul{
 		width: 100%;
 	}
 	.navegacion ul{
-		margin: 54px -228px;
-		width: 30%;
+		width: 100%;
 		position: fixed;
-		background-color:#01c0ee;
+		background-color:#CE7D35;
 	}
 	.menu li{
-		background-color: #01c0ee;
+		position: initial;
+		background-color: #CE7D35;
+		display: inline-block;
 	}
 	.menu li a{
 		font-size: 14px;
@@ -88,6 +90,9 @@ nav ul{
 		}
 .centro ul li{
 	width: 50%;
+}
+textarea{
+	width: 90%;
 }
 footer{
 	margin: -58px -371px;
